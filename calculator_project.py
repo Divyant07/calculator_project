@@ -65,7 +65,7 @@ clear.place(x=0,y=125)
 def clear_all():
     e.delete(0, END)
     e.insert(END,0)
-clear_all=Button(window,text="C",width=8,command=clear_all)
+clear_all=Button(window,text="Clear" ,width=8,command=clear_all)
 clear_all.place(x=60,y=125)
 
 def insert_operator(operator):
